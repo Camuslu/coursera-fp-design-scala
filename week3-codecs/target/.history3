@@ -1,0 +1,15 @@
+1672360574630:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/pm/j08lwbkj2csdczflmb05bm8r001450/T/sbt-structure1.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/tlu/Library/Application Support/JetBrains/LinkedInIdea22/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1672457523665:console
+1672457851939:runMain
+1672457854359:main
+1672457862350:Main
+1672457912468:compile
+1672457947354:runMain
+1672457968350:runMain codecs.Main
+1672457988111:runMain codecs.CodecsSuite
+1672457999919:runTest codecs.CodecsSuite
+1672458021408:test
+1672458086812:runMain codecs.Main
+1672458093923:test
+1672458210067:submit
+1672458232721:submit lutianhao1@gmail.com rEcVznqzNevVK9Cl

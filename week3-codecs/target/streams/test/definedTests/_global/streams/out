@@ -1,0 +1,2 @@
+[0m[[0m[0mdebug[0m] [0m[0mSubclass fingerprints: List((org.scalacheck.Properties,false,org.scalacheck.ScalaCheckFramework$$anon$1@3a063d49), (org.scalacheck.Prop,false,org.scalacheck.ScalaCheckFramework$$anon$1@b7ef7bf), (org.scalacheck.Properties,true,org.scalacheck.ScalaCheckFramework$$anon$1@3ec68d8e), (org.scalacheck.Prop,true,org.scalacheck.ScalaCheckFramework$$anon$1@3b80a6ab), (munit.Suite,false,CustomFingerprint{suite='munit.Suite'}), (munit.Suite,true,munit.Framework$$anon$1@306728e7))[0m
+[0m[[0m[0mdebug[0m] [0m[0mAnnotation fingerprints: List()[0m

@@ -1,0 +1,32 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/tlu/git_proj/codecs/src/main/scala/codecs/codecs.scala:181:27 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m181 |[0m    Decoder.fromFunction { [33mcase[0m x: Json.Num => [33mif[0m(x.value.isValidInt) Some(x.value.toInt) [33melse[0m None }[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                           [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |It would fail on pattern case: Null, Json.Bool(_), Json.Str(_), Json.Obj(_), Json.Arr(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/tlu/git_proj/codecs/src/main/scala/codecs/codecs.scala:185:27 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m185 |[0m    Decoder.fromFunction { [33mcase[0m s: Json.Str => Some(s.value) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                           [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |It would fail on pattern case: Null, Json.Bool(_), Json.Num(_), Json.Obj(_), Json.Arr(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/tlu/git_proj/codecs/src/main/scala/codecs/codecs.scala:189:27 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m189 |[0m    Decoder.fromFunction { [33mcase[0m b: Json.Bool => Some(b.value) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                           [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |It would fail on pattern case: Null, Json.Num(_), Json.Str(_), Json.Obj(_), Json.Arr(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/tlu/git_proj/codecs/src/main/scala/codecs/codecs.scala:198:6 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m198 |[0m      [33mcase[0m jsonArray: Json.Arr => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |      [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |It would fail on pattern case: Null, Json.Bool(_), Json.Num(_), Json.Str(_), Json.Obj(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/tlu/git_proj/codecs/src/main/scala/codecs/codecs.scala:215:26 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m215 |[0m    Decoder.fromFunction{ [33mcase[0m obj: Json.Obj => obj.fields.get(name).flatMap(decoder.decode) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                          [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |It would fail on pattern case: Null, Json.Bool(_), Json.Num(_), Json.Str(_), Json.Arr(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
